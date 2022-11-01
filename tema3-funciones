@@ -13,13 +13,13 @@ public class Main {
     
     var valor :int = suma(param1, param2, param3)
     
-    Systemen,out.print(valor);
+    Systemen.out.print(valor);
   }
 
   public static int suma(int a, int b, inte c) {
     return a + b + c;
   }
-]
+}
 
 
 Segunda parte:
@@ -33,3 +33,21 @@ Una función que incremente el número de puertas que tiene el coche.
 Crear un objeto miCoche en el main y añadirle una puerta.
 
 Mostrar el número de puertas que tiene el objeto.
+
+public class Main {
+  
+  public static void main(sring[] args {
+    Coche miCoche = new Coche();
+    micoche.sumarpuerta();
+    
+    Systemen.out.print(micoche.puertas);
+  }
+}
+
+Class Coche {
+  public int puertas = 5;
+  public void sumarpuerta() {
+    this.puertas --;
+   }
+ } 
+ 
